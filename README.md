@@ -27,7 +27,7 @@
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `12h` sample updated in sync
 
-> **Sample on GitHub** · `INTC_12h.csv` (142 rows, `2026-02-09` -> `2026-09-01`, 8.20 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/intc)** — **3,117** `12h` rows (full `1m`: 635,826), **11 timeframes**, `2011-05-09` -> `2026-09-01`.
+> **Sample on GitHub** · `INTC_12h.csv` (77 rows, `2026-05-13` -> `2026-09-01`, 8.14 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/intc)** — **3,117** `12h` rows (full `1m`: 634,759), **11 timeframes**, `2011-05-09` -> `2026-09-01`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Intel · US stocks | Intel · US stocks |
 | Timeframes | `12h` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 12h rows | 142 | **3,117** |
-| Size | 8.20 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/intc) |
-| Period | `2026-02-09` -> `2026-09-01` | `2011-05-09` -> `2026-09-01` |
+| 12h rows | 77 | **3,117** |
+| Size | 8.14 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/intc) |
+| Period | `2026-05-13` -> `2026-09-01` | `2011-05-09` -> `2026-09-01` |
 | File | `INTC_12h.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/intc) |
 | Coverage report | — | [INTC coverage](https://getdata.finance/coverage/intc) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`INTC_12h.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-02-09T12:00:00+00:00 | 50.51 | 51.16 | 47.52 | 50.16 | 45981 |
-| 2026-02-10T12:00:00+00:00 | 50.16 | 50.46 | 46.69 | 47.08 | 41834 |
-| 2026-02-11T12:00:00+00:00 | 47.08 | 49.49 | 46.78 | 48.16 | 74037 |
-| 2026-02-12T12:00:00+00:00 | 48.16 | 48.89 | 46.12 | 46.43 | 75823 |
-| 2026-02-13T12:00:00+00:00 | 46.43 | 47.63 | 44.89 | 46.72 | 79069 |
+| 2026-05-13T12:00:00+00:00 | 120.18 | 124.48 | 115.96 | 119.72 | 67521.7097 |
+| 2026-05-14T12:00:00+00:00 | 119.72 | 119.72 | 112.7 | 115.43 | 77577 |
+| 2026-05-15T12:00:00+00:00 | 115.43 | 115.43 | 106.3 | 108.15 | 98480.09871 |
+| 2026-05-18T12:00:00+00:00 | 108.15 | 114.99 | 103.34 | 107.55 | 121770 |
+| 2026-05-19T12:00:00+00:00 | 107.55 | 112.54 | 101.89 | 110.38 | 117308 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-08-26T12:00:00+00:00 | 87.46 | 88.18 | 85.57 | 87.24 | 50466 |
-| 2026-08-27T12:00:00+00:00 | 88.2 | 92.89 | 88.2 | 92.03 | 79537 |
-| 2026-08-28T12:00:00+00:00 | 92.03 | 93.6 | 88.97 | 89.42 | 119610 |
-| 2026-08-31T12:00:00+00:00 | 89.42 | 91.74 | 88.9 | 89.45 | 59656 |
-| 2026-09-01T12:00:00+00:00 | 89.45 | 89.45 | 85.65 | 88.92 | 81494 |
+| 2026-08-26T12:00:00+00:00 | 85.58 | 86.37 | 83.69 | 86.33 | 67278 |
+| 2026-08-27T12:00:00+00:00 | 86.33 | 91.02 | 86.33 | 89.95 | 109177 |
+| 2026-08-28T12:00:00+00:00 | 89.95 | 91.52 | 86.89 | 87.34 | 119610 |
+| 2026-08-31T12:00:00+00:00 | 87.34 | 89.66 | 86.82 | 87.37 | 59656 |
+| 2026-09-01T12:00:00+00:00 | 87.37 | 87.37 | 83.57 | 86.84 | 81494 |
 
 ## Schema
 
