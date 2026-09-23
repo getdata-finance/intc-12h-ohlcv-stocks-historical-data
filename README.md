@@ -1,6 +1,6 @@
 # INTC 12h OHLCV US stocks Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-3_124_rows-blue)](https://getdata.finance/datasets/intc) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/intc)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-3_131_rows-blue)](https://getdata.finance/datasets/intc) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/intc)
 
 ### -> [**Download the full INTC dataset on getdata.finance**](https://getdata.finance/datasets/intc)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 12h OHLCV** for **Intel** (US stocks)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`12h`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/intc) · **3,124** `12h` rows in the full archive
+- **Free evaluation sample** on GitHub (`12h`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/intc) · **3,131** `12h` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `12h` sample updated in sync
 
-> **Sample on GitHub** · `INTC_12h.csv` (127 rows, `2026-03-12` -> `2026-09-11`, 12.98 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/intc)** — **3,124** `12h` rows (full `1m`: 634,759), **11 timeframes**, `2011-05-09` -> `2026-09-11`.
+> **Sample on GitHub** · `INTC_12h.csv` (127 rows, `2026-03-23` -> `2026-09-22`, 12.66 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/intc)** — **3,131** `12h` rows (full `1m`: 634,759), **11 timeframes**, `2011-05-09` -> `2026-09-22`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Intel · US stocks | Intel · US stocks |
 | Timeframes | `12h` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 12h rows | 127 | **3,124** |
-| Size | 12.98 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/intc) |
-| Period | `2026-03-12` -> `2026-09-11` | `2011-05-09` -> `2026-09-11` |
+| 12h rows | 127 | **3,131** |
+| Size | 12.66 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/intc) |
+| Period | `2026-03-23` -> `2026-09-22` | `2011-05-09` -> `2026-09-22` |
 | File | `INTC_12h.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/intc) |
 | Coverage report | — | [INTC coverage](https://getdata.finance/coverage/intc) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`INTC_12h.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-03-12T12:00:00+00:00 | 47.5 | 47.5 | 44.71 | 44.79 | 68504 |
-| 2026-03-13T12:00:00+00:00 | 44.79 | 46.18 | 44.79 | 45.32 | 64233 |
-| 2026-03-16T12:00:00+00:00 | 45.32 | 48.68 | 45.23 | 45.26 | 71196 |
-| 2026-03-17T12:00:00+00:00 | 45.26 | 45.62 | 43.45 | 43.6 | 40168 |
-| 2026-03-18T12:00:00+00:00 | 43.6 | 45.26 | 43.59 | 44.57 | 45456 |
+| 2026-03-23T12:00:00+00:00 | 43.43 | 45.01 | 43.28 | 43.54 | 65844 |
+| 2026-03-24T12:00:00+00:00 | 43.54 | 43.86 | 42.72 | 43.64 | 59783 |
+| 2026-03-25T12:00:00+00:00 | 43.64 | 47.39 | 43.64 | 46.73 | 59344 |
+| 2026-03-26T12:00:00+00:00 | 46.73 | 46.73 | 43.46 | 43.65 | 50554 |
+| 2026-03-27T12:00:00+00:00 | 43.65 | 43.67 | 42.4 | 42.68 | 50844.90966 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-09-04T12:00:00+00:00 | 91.66 | 95.87 | 91.66 | 95.75 | 82242 |
-| 2026-09-08T12:00:00+00:00 | 95.75 | 106.02 | 95.75 | 104.5 | 125045 |
-| 2026-09-09T12:00:00+00:00 | 104.5 | 106.63 | 102.75 | 106.12 | 107734 |
-| 2026-09-10T12:00:00+00:00 | 106.12 | 106.12 | 99.27 | 100.29 | 99575 |
-| 2026-09-11T12:00:00+00:00 | 100.29 | 104.81 | 100.29 | 102.91 | 97190 |
+| 2026-09-16T12:00:00+00:00 | 97.04 | 104.34 | 97.04 | 100.93 | 103977 |
+| 2026-09-17T12:00:00+00:00 | 100.93 | 111.31 | 100.93 | 108.8 | 84789 |
+| 2026-09-18T12:00:00+00:00 | 108.8 | 110.38 | 106.31 | 108.61 | 66698 |
+| 2026-09-21T12:00:00+00:00 | 108.61 | 124.66 | 108.61 | 121.8 | 106209 |
+| 2026-09-22T12:00:00+00:00 | 121.8 | 124.03 | 120.02 | 123.78 | 83406 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **INTC** archive on **[getdata.finance](https://getdata.finance/datasets/intc)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **3,124** rows at `12h`, plus all other timeframes in the same ZIP.
+The complete **INTC** archive on **[getdata.finance](https://getdata.finance/datasets/intc)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **3,131** rows at `12h`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full INTC dataset on getdata.finance](https://getdata.finance/datasets/intc)**
 
